@@ -12,3 +12,8 @@
     border-right: 2px solid hsla(0,0%,100%,.22);
 
 }
+
+.nav-header .mr-auto .font-header .header-icon{
+    width: 20px;
+    margin-left: 5px;
+}

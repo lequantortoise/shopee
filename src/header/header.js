@@ -4,10 +4,10 @@ import {Nav, Navbar, Form, FormControl, Button, Image} from 'react-bootstrap';
 
 export default class Header extends React.Component
 {
-    constructor(props)
-    {
-        super(props);
-    }
+    //constructor(props)
+    //{
+    //    super(props);
+    //}
 
     render()
     {
@@ -17,8 +17,9 @@ export default class Header extends React.Component
                     <Nav className="mr-auto">
                         <Nav.Link className="font-header" href="#home">Kênh người bán</Nav.Link>
                         <Nav.Link className="font-header" href="#home">Tải ứng dụng</Nav.Link>
-                        <Nav.Link className="font-header" href="#features">Kết nối
-                            <Image src="/shopee/public/header-icon/header_icon_fb" roundedCircle />
+                        <Nav.Link className="font-header">Kết nối
+                            <Image className="header-icon" src="../header-icon/header_icon_fb.png" roundedCircle />
+                            <Image className="header-icon" src="../header-icon/header_icon_ig.png" roundedCircle />
                         </Nav.Link>
                     </Nav>
                     <Form inline>
