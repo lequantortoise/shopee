@@ -1,0 +1,14 @@
+.nav-header{
+    background-color: #f7452e;
+
+}
+
+.nav-header .mr-auto .font-header{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8125rem;
+    font-weight: 300;
+    padding: 0 .4375rem;
+    border-right: 2px solid hsla(0,0%,100%,.22);
+
+}
